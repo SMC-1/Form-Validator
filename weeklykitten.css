@@ -1,0 +1,40 @@
+/*
+CSS for a form Validation
+Author: Santiago Mesa
+14 July 2022
+*/
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type=text], input[type=password]{
+    display: block;
+    width: 90%;
+    padding: 12px 18px;
+    border: 1px solid;
+}
+.textfield, .formcontainer{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+button{
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+    font-size: medium;
+    width: 150px;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 10px;
+}
+button[type=submit]{
+    background-color: green;
+}
+button[type=reset]{
+    background-color: indianred;
+}
+.error{
+    color: red;
+    margin: 2px;
+}
